@@ -1,10 +1,15 @@
+import { Card } from "./Card";
+import { Spinner } from "./Spinner";
 function App() {
   return (
     <div className="d-flex justify-content-center">
       <div>Hello</div>
-      <div>
-        <i className="far fa-spinner fa-spin mr-2 fa-lg"></i>
-      </div>
+      <Spinner />
+      <Card>
+        <Card.Header>Header</Card.Header>
+        <Card.Title>Title</Card.Title>
+        <Card.Body>Body</Card.Body>
+      </Card>
     </div>
   );
 }

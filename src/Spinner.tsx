@@ -1,0 +1,1 @@
+export const Spinner = () => <span><i className="far fa-spinner fa-spin mr-2 fa-lg"></i></span>
