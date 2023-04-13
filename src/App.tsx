@@ -1,14 +1,12 @@
-import { Card } from "./Card";
-import { Spinner } from "./Spinner";
+import { Card } from "./ui/Card";
 function App() {
   return (
-    <div className="d-flex justify-content-center">
-      <div>Hello</div>
-      <Spinner />
+    // <div className="d-flex justify-content-center">
+    <div>
       <Card>
-        <Card.Header>Header</Card.Header>
-        <Card.Title>Title</Card.Title>
-        <Card.Body>Body</Card.Body>
+        <Card.Header>Card Header</Card.Header>
+        <Card.Title> Card Title</Card.Title>
+        <Card.Body>Card Body</Card.Body>
       </Card>
     </div>
   );
